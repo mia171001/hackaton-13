@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-father {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 100px;
+}
+
+
+
+.container-hijo3 {
+    text-align: center;
+}
+
+.parrafo {
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-hijo1 {
+    display: flex;
+    justify-content: center;
+}
